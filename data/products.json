@@ -1,0 +1,65 @@
+[
+  {
+    "img": "http://www.notebookcheck.pl/fileadmin/_processed_/csm_5_a0e0078ec6.jpg",
+    "name": "Dell Latitude",
+    "category": "Komputery",
+    "description": "Description",
+    "price": "599,00 EUR",
+    "button": "Kup teraz!",
+    "product_class": "product"
+  },
+  {
+    "img": "http://www.notebookcheck.pl/fileadmin/_processed_/csm_5_a0e0078ec6.jpg",
+    "name": "Dell Latitude",
+    "category": "Komputery",
+    "description": "Description",
+    "price": "599,00 EUR",
+    "button": "Kup teraz!",
+    "product_class": "product"
+  },
+  {
+    "img": "http://www.notebookcheck.pl/fileadmin/_processed_/csm_5_a0e0078ec6.jpg",
+    "name": "Dell Latitude",
+    "category": "Komputery",
+    "description": "Description",
+    "price": "599,00 EUR",
+    "button": "Kup teraz!",
+    "product_class": "product"
+  },
+  {
+    "img": "http://www.notebookcheck.pl/fileadmin/_processed_/csm_5_a0e0078ec6.jpg",
+    "name": "Dell Lenovo E7240",
+    "category": "Komputery",
+    "description": "Description",
+    "price": "599,00 EUR",
+    "button": "Kup teraz!",
+    "product_class": "product"
+  },
+  {
+    "img": "http://www.notebookcheck.pl/fileadmin/_processed_/csm_5_a0e0078ec6.jpg",
+    "name": "Dell Homebook",
+    "category": "Komputery",
+    "description": "Description",
+    "price": "599,00 EUR",
+    "button": "Kup teraz!",
+    "product_class": "product"
+  },
+  {
+    "img": "http://www.notebookcheck.pl/fileadmin/_processed_/csm_5_a0e0078ec6.jpg",
+    "name": "Dell Latitude",
+    "category": "Komputery",
+    "description": "Description",
+    "price": "599,00 EUR",
+    "button": "Kup teraz!",
+    "product_class": "product"
+  },
+  {
+    "img": "http://www.notebookcheck.pl/fileadmin/_processed_/csm_5_a0e0078ec6.jpg",
+    "name": "Dell Vostro",
+    "category": "Komputery",
+    "description": "Description",
+    "price": "599,00 EUR",
+    "button": "Kup teraz!",
+    "product_class": "product special"
+  }
+]
