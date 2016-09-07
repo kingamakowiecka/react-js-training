@@ -1,0 +1,144 @@
+body {
+    align-items: center;
+    background-image: -moz-linear-gradient(45deg, #e0e0d1 25%, transparent 25%),
+    -moz-linear-gradient(-45deg, #e0e0d1 25%, transparent 25%),
+    -moz-linear-gradient(45deg, transparent 75%, #e0e0d1 75%),
+    -moz-linear-gradient(-45deg, transparent 75%, #e0e0d1 75%);
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, #e0e0d1), color-stop(.25, transparent)),
+    -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #e0e0d1), color-stop(.25, transparent)),
+    -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, #e0e0d1)),
+    -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, #e0e0d1));
+    background-image: -webkit-linear-gradient(45deg, #e0e0d1 25%, transparent 25%),
+    -webkit-linear-gradient(-45deg, #e0e0d1 25%, transparent 25%),
+    -webkit-linear-gradient(45deg, transparent 75%, #e0e0d1 75%),
+    -webkit-linear-gradient(-45deg, transparent 75%, #e0e0d1 75%);
+    background-image: -o-linear-gradient(45deg, #e0e0d1 25%, transparent 25%),
+    -o-linear-gradient(-45deg, #e0e0d1 25%, transparent 25%),
+    -o-linear-gradient(45deg, transparent 75%, #e0e0d1 75%),
+    -o-linear-gradient(-45deg, transparent 75%, #e0e0d1 75%);
+    background-image: linear-gradient(45deg, #e0e0d1 25%, transparent 25%),
+    linear-gradient(-45deg, #e0e0d1 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #e0e0d1 75%),
+    linear-gradient(-45deg, transparent 75%, #e0e0d1 75%);
+    -moz-background-size: 2px 2px;
+    background-size: 2px 2px;
+    -webkit-background-size: 2px 2.1px; /* override value for webkit */
+    background-position: 0 0, 1px 0, 1px -1px, 0px 1px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.search__input {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search__button {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    animation: fadein 2s;
+}
+
+.product__type {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 2; }
+}
+
+.product {
+    padding: 20px;
+    margin: 20px;
+    background:  #c2c2a3;
+    box-sizing: border-box;
+    text-align: left;
+    transition: box-shadow 0.25s ease-in, transform 0.5s linear;
+    flex: 1;
+    max-width: 450px;
+    animation-delay: 20s;
+}
+
+.product.special {
+    background: #999966;
+}
+
+.product:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    color: #000033;
+    transform: scale(1.05);
+}
+
+.product__img {
+    height: 300px;
+    width: 400px;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+}
+
+.product__name {
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.product__category {
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.product__description {
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.product__price {
+    float: right;
+    box-sizing: border-box;
+}
+
+.product__button {
+    color: darkorange;
+    float: left;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+}
+
+.clear-fix {
+    clear: both;
+}
